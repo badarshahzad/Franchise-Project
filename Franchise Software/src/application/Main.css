@@ -1,0 +1,32 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#MenuBar {
+	-fx-background-color: #1d1d1d;
+}
+
+.menu .label{
+    -fx-text-fill: white;
+    -fx-font-size: 15 pt;
+    -fx-font-family: "Segoe UI Light"
+}
+
+.menu-item {
+	-fx-padding: 0.333333em 0.41777em 0.333333em 0.41777em;
+}
+
+.menu-item:hover {
+    -fx-background-color: #4D648D;
+}
+
+.menu:hover {
+    -fx-background-color: #4D648D;
+}
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #1d1d1d;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+/*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}

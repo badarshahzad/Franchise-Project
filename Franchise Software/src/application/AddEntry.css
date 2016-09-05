@@ -1,0 +1,59 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#anchorPane{
+		-fx-background-color: #1d1d1d;
+}
+
+#addEntryLabels {
+	-fx-text-fill: white;
+    -fx-font-size: 15 pt;
+    -fx-font-family: "Segoe UI Light"
+}
+
+#submitButton {
+	-fx-background-color: white;
+	-fx-text-fill: black;
+    -fx-font-size: 15 pt;
+    -fx-font-family: "Segoe UI Light"
+}
+
+#resetButton {
+	-fx-background-color: white;
+	-fx-text-fill: black;
+    -fx-font-size: 15 pt;
+    -fx-font-family: "Segoe UI Light"
+}
+
+#submitButton:hover {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+
+#resetButton:hover {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+
+
+#nameComboBox {
+    -fx-background: white;
+    -fx-background-color: white;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em; 
+}
+
+
+
+.table-row-cell:selected {
+   -fx-background-color: black; 
+}
+
+.table-row-cell:selected .text {
+       -fx-fill: white ;
+       -fx-font-weight: bold;	
+}
+
+.table-row-cell .text {
+       -fx-font-weight: bold;	
+}
