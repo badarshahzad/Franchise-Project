@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXRippler?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXToolbar>
+                     <left>
+                        <JFXRippler maskType="CIRCLE" style="-fx-ripple-color: WHITE;" BorderPane.alignment="CENTER">
+                           <children>
+                              <StackPane id="titleBurgerContainer">
+                                 <children>
+                                    <JFXHamburger id="titleBurger" />
+                                 </children>
+                              </StackPane>
+                              <Label text="Menu" />
+                           </children>
+                        </JFXRippler>
+                     </left>
+                     <right>
+                        <JFXRippler id="optionRippler" maskType="CIRCLE" style="-fx-ripple-color: WHITE;" BorderPane.alignment="CENTER">
+                           <children>
+                              <StackPane id="optionsBurger" prefHeight="0.0" prefWidth="0.0">
+                                 <children>
+                                    <JFXHamburger styleClass="jfx-option-burger" />
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </JFXRippler>
+                     </right>
+                  </JFXToolbar>
+               </children>
+            </VBox>
+         </top>
+      </BorderPane>
+   </children>
+</StackPane>

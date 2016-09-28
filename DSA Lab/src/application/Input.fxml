@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="320.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PersonInfo">
+   <children>
+      <JFXTextField fx:id="userNameField" labelFloat="true" layoutX="103.0" layoutY="65.0" promptText="User Name" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <JFXTextField fx:id="userAddressField" layoutX="84.0" layoutY="128.0" promptText="Address" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <JFXTextField fx:id="userPhoneNumebrField" layoutX="84.0" layoutY="200.0" promptText="Phone Numebr" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <JFXButton fx:id="submit" layoutX="262.0" layoutY="269.0" onAction="#Listener" text="Submit" />
+      <JFXButton fx:id="exit" layoutX="32.0" layoutY="271.0" text="Exit" />
+   </children>
+</AnchorPane>

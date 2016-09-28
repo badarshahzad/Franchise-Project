@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.TestingController">
+   <children>
+      <JFXHamburger fx:id="ham1" layoutX="75.0" layoutY="95.0" />
+      <JFXHamburger fx:id="ham2" layoutX="167.0" layoutY="96.0" />
+      <JFXHamburger fx:id="ham3" layoutX="261.0" layoutY="95.0" />
+      <JFXHamburger fx:id="ham4" focusTraversable="true" layoutX="363.0" layoutY="92.0" opacity="0.7" />
+      <JFXHamburger fx:id="ham5" layoutX="451.0" layoutY="92.0" />
+   </children>
+</AnchorPane>

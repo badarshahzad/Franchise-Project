@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="425.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.LoginController`">
+    <children>
+      <JFXTextField fx:id="username" labelFloat="true" layoutX="82.0" layoutY="251.0" maxWidth="240.0" minWidth="240.0" prefHeight="32.0" prefWidth="240.0" promptText="User Name" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" />
+      <JFXTextField fx:id="password" labelFloat="true" layoutX="81.0" layoutY="318.0" maxWidth="246.0" minWidth="246.0" prefHeight="32.0" prefWidth="246.0" promptText="Password" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" focusTraversable="true" layoutX="137.0" layoutY="25.0" opacity="0.7" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="137.0" AnchorPane.rightAnchor="137.0">
+         <image>
+            <Image url="/Images/loginPagePic.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="loginListeners" fitHeight="53.0" fitWidth="64.0" layoutX="183.0" layoutY="356.0" onMouseClicked="#mouseClickLoginGuiHided" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="183.0" AnchorPane.rightAnchor="173.83505249023438">
+          <image>
+            <Image url="/Images/next_sail.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

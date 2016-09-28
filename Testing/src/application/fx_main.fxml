@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="application.fx_main">
+   <children>
+      <JFXButton id="aaa" buttonType="RAISED" layoutX="81.0" layoutY="223.0" ripplerFill="#d31414" style="-fx-background-color: #09b6bc;" text="log in" textFill="#eee4e4" />
+      <JFXButton id="bbb" buttonType="RAISED" layoutX="229.0" layoutY="223.0" ripplerFill="#ee0606" style="-fx-background-color: #09b6bc;" text="sign up" textFill="#652c2c" />
+   </children>
+</AnchorPane>
